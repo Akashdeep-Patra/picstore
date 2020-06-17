@@ -1,0 +1,35 @@
+{
+  "name": "picstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akashdeep-Patra/picstore.git"
+  },
+  "author": "Akashdeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akashdeep-Patra/picstore/issues"
+  },
+  "homepage": "https://github.com/Akashdeep-Patra/picstore#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "gravator": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "requests": "^0.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
